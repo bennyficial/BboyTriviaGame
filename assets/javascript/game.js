@@ -13,19 +13,19 @@ var questions = [{
   correctAnswer: "<h3>Halos are considered a power move rather than a freeze.</h3>"  + "<img src='assets/images/halos.gif' alt='halos'/>"
 },{
   question: "<h3>Which of the following is not a traditional element in breakdancing?</h3>",
-  choices: ["<h4 class='wrong'>Freezes</h3>","<h4 class='wrong'>Power Moves</h3>","<h4 class='wrong'>Top Rock</h4>","<h4 class='correct'>Salsa Rock</h4>"],
+  choices: ["<h4 class='wrong'>Freezes</h4>","<h4 class='wrong'>Power Moves</h4>","<h4 class='wrong'>Top Rock</h4>","<h4 class='correct'>Salsa Rock</h4>"],
   correctAnswer: "<h3>Salsa Rock itself is not one of the traditional elements of breakdancing.</h3>"  + "<img src='assets/images/salsa.jpg' alt='salsa'/>"
 },{
   question: "<h3>What does BOTY stand for?</h3>",
-  choices: ["<h4 class='correct'>Battle of the Year</h3>","<h4 class='wrong'>Bboy of the Year</h3>","<h4 class='wrong'>Breakdancer of the Year</h4>","<h4 class='wrong'>Breakbeat of the year</h4>"],
+  choices: ["<h4 class='correct'>Battle of the Year</h4>","<h4 class='wrong'>Bboy of the Year</h4>","<h4 class='wrong'>Breakdancer of the Year</h4>","<h4 class='wrong'>Breakbeat of the year</h4>"],
   correctAnswer: "<h3>BOTY is short for Battle of the Year.</h3>"  + "<img src='assets/images/boty.jpg' alt='boty'/>"
 },{
   question: "<h3>Which country won IBE 2016 Super Solo Bboy Battle?</h3>",
-  choices: ["<h4 class='wrong'>Germany</h3>","<h4 class='correct'>America</h3>","<h4 class='wrong'>Japan</h4>","<h4 class='wrong'>Korea</h4>"],
+  choices: ["<h4 class='wrong'>Germany</h4>","<h4 class='correct'>America</h4>","<h4 class='wrong'>Japan</h4>","<h4 class='wrong'>Korea</h4>"],
   correctAnswer: "<h3>Victor from MF Kidz/Squadron represented America and won in 2016. </h3>"  + "<img src='assets/images/america.png' alt='america'/>"
 },{
   question: "<h3>Where did breakdancing originate from?</h3>",
-  choices: ["<h4 class='wrong'>Chicago</h3>","<h4 class='wrong'>Harlem</h3>","<h4 class='correct'>Bronx</h4>","<h4 class='wrong'>Jersey</h4>"],
+  choices: ["<h4 class='wrong'>Chicago</h4>","<h4 class='wrong'>Harlem</h4>","<h4 class='correct'>Bronx</h4>","<h4 class='wrong'>Jersey</h4>"],
   correctAnswer: "<h3>The Bronx in the early, 70's Dj Kool Herc would play the 'breaks' of songs.</h3>"  + "<img src='assets/images/koolherc.jpg' alt='koolherc'/>"
 },{
   question: "<h3>What is bboy short for?</h3>",
@@ -33,11 +33,11 @@ var questions = [{
   correctAnswer: "<h3>Bboy is short for Break boy</h3>" + "<img src='assets/images/bboy.jpg' alt='bboy'/>"
 },{
   question: "<h3>Bboys who focus mainly on style are usually referred to as what?</h3>",
-  choices: ["<h4 class='wrong'>Style Jockey</h3>","<h4 class='correct'>Style Head</h3>","<h4 class='wrong'>Style Junkie</h4>","<h4 class='wrong'>Style Master</h4>"],
+  choices: ["<h4 class='wrong'>Style Jockey</h4>","<h4 class='correct'>Style Head</h4>","<h4 class='wrong'>Style Junkie</h4>","<h4 class='wrong'>Style Master</h4>"],
   correctAnswer: "<h3>Style Heads are the term used for bboys who favor style above all else.</h3>" + "<img src='assets/images/footwork.jpg' alt='footwork'/>"
 },{
   question: "<h3>What is the term bboys to call out someone for plagiarism?</h3>",
-  choices: ["<h4 class='wrong'>Copy cat</h3>","<h4 class='wrong'>Mimic</h3>","<h4 class='wrong'>Ditto</h4>","<h4 class='correct'>Biter</h4>"],
+  choices: ["<h4 class='wrong'>Copy cat</h4>","<h4 class='wrong'>Mimic</h4>","<h4 class='wrong'>Ditto</h4>","<h4 class='correct'>Biter</h4>"],
   correctAnswer: "<h3>Biter is a term bboys use to call out someone who has copied someone else's move or style.</h3>" + "<img src='assets/images/biter.jpg' alt='biter'/>"
 }];
 var timer = 8;

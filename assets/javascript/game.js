@@ -1,23 +1,47 @@
 //VARIABLES
 var questions = [{
-  question: "<h4>Which crew is Hong10 from?</h4>",
-  choices: ["<h4 class='correct'>Drifterz</h4>","<h4 class='wrong'>Rivers</h4>","<h4 class='wrong'>Gamblerz</h4>","<h4 class='wrong'>Last 4 One</h4>"],
-  correctAnswer: "<h4>Drifterz</h4>"
+  question: "<h3> Which one of these power moves was NOT invented by bboys?</h3>",
+  choices: ["<h4 class='correct'>Flare</h4>","<h4 class='wrong'>Jackhammer</h4>","<h4 class='wrong'>Hand hops</h4>","<h4 class='wrong'>Headspin</h4>"],
+  correctAnswer: "<h3>The flare was originally created by gymnast Kurt Thomas.</h3>"  + "<img src='assets/images/flares.gif' alt='flare'/>"
 }, {
-  question: "<h4>Which Jinjo Crew member won a RedBull BC One?</h4>",
-  choices: ["<h4 class='wrong'>Skim</h4>","<h4 class='correct'>Wing</h4>","<h4 class='wrong'>Vero</h4>","<h4 class='wrong'>Rookie</h4>"],
-  correctAnswer: "<h4>Wing</h4>"
+  question: "<h3>Which company hosts the biggest one on one bboy competition?</h3>",
+  choices: ["<h4 class='wrong'>Monster</h4>","<h4 class='correct'>Red Bull</h4>","<h4 class='wrong'>Pepsi</h4>","<h4 class='wrong'>Coke</h4>"],
+  correctAnswer: "<h3>Red Bull hosts Red Bull BC One annualy, the premier 1v1 bboy event.</h3>"  + "<img src='assets/images/redbull.jpg' alt='redbull'/>"
 }, {
-  question: "<h4>Which of these is considered a power move?</h4>",
-  choices: ["<h4 class='wrong'>Baby Freeze</h4>","<h4 class='wrong'>Air Chair</h4>","<h4 class='correct'>Flares</h4>","<h4 class='wrong'>Six Step</h4>"],
-  correctAnswer: "<h4>Flares</h4>"
+  question: "<h3>Which of these is considered a power move?</h3>",
+  choices: ["<h4 class='wrong'>Baby Freeze</h4>","<h4 class='wrong'>Air Chair</h4>","<h4 class='correct'>Halos</h4>","<h4 class='wrong'>Six Step</h4>"],
+  correctAnswer: "<h3>Halos are considered a power move rather than a freeze.</h3>"  + "<img src='assets/images/halos.gif' alt='halos'/>"
 },{
-  question: "<h4>Which local crew from the 562 won America's Best Dance Crew?</h4>",
-  choices: ["<h4 class='wrong'>Super Crew</h4>","<h4 class='wrong'>Sanity</h4>","<h4 class='wrong'>Deuces Wild</h4>","<h4 class='correct'>Quest Crew</h4>"],
-  correctAnswer: "<h4>Quest Crew</h4>"
+  question: "<h3>Which of the following is not a traditional element in breakdancing?</h3>",
+  choices: ["<h4 class='wrong'>Freezes</h3>","<h4 class='wrong'>Power Moves</h3>","<h4 class='wrong'>Top Rock</h4>","<h4 class='correct'>Salsa Rock</h4>"],
+  correctAnswer: "<h3>Salsa Rock itself is not one of the traditional elements of breakdancing.</h3>"  + "<img src='assets/images/salsa.jpg' alt='salsa'/>"
+},{
+  question: "<h3>What does BOTY stand for?</h3>",
+  choices: ["<h4 class='correct'>Battle of the Year</h3>","<h4 class='wrong'>Bboy of the Year</h3>","<h4 class='wrong'>Breakdancer of the Year</h4>","<h4 class='wrong'>Breakbeat of the year</h4>"],
+  correctAnswer: "<h3>BOTY is short for Battle of the Year.</h3>"  + "<img src='assets/images/boty.jpg' alt='boty'/>"
+},{
+  question: "<h3>Which country won IBE 2016 Super Solo Bboy Battle?</h3>",
+  choices: ["<h4 class='wrong'>Germany</h3>","<h4 class='correct'>America</h3>","<h4 class='wrong'>Japan</h4>","<h4 class='wrong'>Korea</h4>"],
+  correctAnswer: "<h3>Victor from MF Kidz/Squadron represented America and won in 2016. </h3>"  + "<img src='assets/images/america.png' alt='america'/>"
+},{
+  question: "<h3>Where did breakdancing originate from?</h3>",
+  choices: ["<h4 class='wrong'>Chicago</h3>","<h4 class='wrong'>Harlem</h3>","<h4 class='correct'>Bronx</h4>","<h4 class='wrong'>Jersey</h4>"],
+  correctAnswer: "<h3>The Bronx in the early, 70's Dj Kool Herc would play the 'breaks' of songs.</h3>"  + "<img src='assets/images/koolherc.jpg' alt='koolherc'/>"
+},{
+  question: "<h3>What is bboy short for?</h3>",
+  choices: ["<h4 class='wrong'>Breakdance boy</h3>","<h4 class='wrong'>Beat boy</h3>","<h4 class='wrong'>Boom boy</h4>","<h4 class='correct'>Break boy</h4>"],
+  correctAnswer: "<h3>Bboy is short for Break boy</h3>" + "<img src='assets/images/bboy.jpg' alt='bboy'/>"
+},{
+  question: "<h3>Bboys who focus mainly on style are usually referred to as what?</h3>",
+  choices: ["<h4 class='wrong'>Style Jockey</h3>","<h4 class='correct'>Style Head</h3>","<h4 class='wrong'>Style Junkie</h4>","<h4 class='wrong'>Style Master</h4>"],
+  correctAnswer: "<h3>Style Heads are the term used for bboys who favor style above all else.</h3>" + "<img src='assets/images/footwork.jpg' alt='footwork'/>"
+},{
+  question: "<h3>What is the term bboys to call out someone for plagiarism?</h3>",
+  choices: ["<h4 class='wrong'>Copy cat</h3>","<h4 class='wrong'>Mimic</h3>","<h4 class='wrong'>Ditto</h4>","<h4 class='correct'>Biter</h4>"],
+  correctAnswer: "<h3>Biter is a term bboys use to call out someone who has copied someone else's move or style.</h3>" + "<img src='assets/images/biter.jpg' alt='biter'/>"
 }];
-var timer = 3;
-var questionCounter = 0;
+var timer = 8;
+var questionCounter = 0; 
 var wrongCount = 0;
 var correctCount = 0;
 var answerCount = 0;
@@ -41,9 +65,9 @@ var intervalId;
           // run CC when clicking correct answer
           $(".correct").on("click", CC);
           // display time left
-          $("#timer").html("<h4>Time remaining: " + timer + "</h4.");
+          $("#timer").html("<h3>Time remaining: " + timer + "</h3.");
           // display the question
-          $("#question").html("<h4>Question: </h4>" + questions[questionCounter].question);
+          $("#question").html("<h3>" + questions[questionCounter].question + "</h3>");
         // end game when no more questions left  
         } else if (questionCounter === questions.length) {
                     stop();          
@@ -59,7 +83,7 @@ var intervalId;
         $("#timer").empty();
         //writes the counts for correct answer, wrong answer, no answer
         var noCount = questionCounter-(wrongCount+correctCount);
-        $("#setup").append("<h4>Correct Answer: " + correctCount + "</h4>" + "<br>").append("<h4>Wrong Answer: " + wrongCount + "</h4>" + "<br>").append("<h4>Unanswered: " + noCount + "</h4>" + "<br>").append("<button id ='restart'>Play again?</button>");
+        $("#setup").append("<h3>Correct Answer: " + correctCount + "</h3>" + "<br>").append("<h3>Wrong Answer: " + wrongCount + "</h3>" + "<br>").append("<h3>Unanswered: " + noCount + "</h3>" + "<br>").append("<button class = 'btn btn-primary'id ='restart'>Play again?</button>");
         //refreshes to page to restart the game
         $("#restart").on("click",refresh);
       }
@@ -83,26 +107,23 @@ var intervalId;
       function CC(){
             correctCount++;  
       answerPage();
-      }  
-      function NC(){
-            noCount++;
-      }        
+      }       
       //display the correct anwer slide
       function answerPage(){
         $("#choice").empty();
-        $("#answer").html("<h4>Correct Answer:</h4>" + questions[questionCounter].correctAnswer);
+        $("#answer").html("<h3>Correct Answer: " + questions[questionCounter].correctAnswer + "</h3>");
         $("#timer").empty();
           // increase question counter to move to next question
           questionCounter++;
           //stops the time
           stop();
           //resets the time
-          timer = 3;  
+          timer = 8;  
           //runs game and counter after 1.5 sec delay
-          setTimeout(playGame,1500);
+          setTimeout(playGame,3500);
           //only run the counter if game is not over with a 1.5 sec delay
           if (questionCounter < questions.length) {
-          setTimeout(run,1500);
+          setTimeout(run,3500);
           } else {
             stop();
           }
@@ -119,7 +140,7 @@ var intervalId;
       function decrement() {
       //decrease the timer  
       timer--;
-        $("#timer").html("<h4>Time remaining: " + timer + "</h4.")
+        $("#timer").html("<h3>Time remaining: " + timer + "</h3.")
           if (timer === 0) {
             //show answer page when time runs out         
             setTimeout(answerPage,1000);

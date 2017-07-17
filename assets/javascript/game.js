@@ -40,7 +40,7 @@ var questions = [{
   choices: ["<h4 class='wrong'>Copy cat</h4>","<h4 class='wrong'>Mimic</h4>","<h4 class='wrong'>Ditto</h4>","<h4 class='correct'>Biter</h4>"],
   correctAnswer: "<h3>Biter is a term bboys use to call out someone who has copied someone else's move or style.</h3>" + "<img src='assets/images/biter.jpg' alt='biter'/>"
 }];
-var timer = 8;
+var timer = 9;
 var questionCounter = 0; 
 var wrongCount = 0;
 var correctCount = 0;
@@ -118,12 +118,12 @@ var intervalId;
           //stops the time
           stop();
           //resets the time
-          timer = 8;  
+          timer = 9;  
           //runs game and counter after 1.5 sec delay
-          setTimeout(playGame,3500);
+          setTimeout(playGame,4500);
           //only run the counter if game is not over with a 1.5 sec delay
           if (questionCounter < questions.length) {
-          setTimeout(run,3500);
+          setTimeout(run,4500);
           } else {
             stop();
           }
